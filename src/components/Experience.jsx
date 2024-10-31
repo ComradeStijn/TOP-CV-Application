@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
-import Card from "./Card"
+import Card from "./Card";
 
-export default function Experiences({experiences}) {
+export default function Experiences({ experiences }) {
   return (
     <section className="section">
       <h1>Experience</h1>
@@ -10,5 +10,5 @@ export default function Experiences({experiences}) {
         <Card key={experience.id} {...experience} />
       ))}
     </section>
-  )
+  );
 }

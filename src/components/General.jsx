@@ -2,7 +2,7 @@
 export default function General({ name, mail, number }) {
   return (
     <section className="section">
-      <h1>General information</h1>
+      <h1>Personal information</h1>
       <hr />
       <p>
         <em>Name:</em> {name}

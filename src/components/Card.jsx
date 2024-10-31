@@ -1,6 +1,7 @@
+/* eslint-disable react/prop-types */
 export default function Card({ title, subtitle, date }) {
   return (
-    <div className='card'>
+    <div className="card">
       <h2>{title}</h2>
       <h3>
         {subtitle}: {date}
